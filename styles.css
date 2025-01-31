@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f3f4f6; /* Light background color */
+}
+
+.hero img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the parent container */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    padding: 15px 30px;
+    background-color: #e60023; /* Pinterest red color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from link */
+}
